@@ -1,0 +1,20 @@
+1- npm list ==> to show all of packages that be use
+2- npm list --depth=0 ==> to show the base packages
+3- npm prune ==> to remove all of packages is installing but not use in the app
+4- npm bugs [name of package] e.x => npm bugs bootstrap ==> to show all of bugs for your package
+5- any app based on the thing ==> [ mayor - minor - patch ]
+	- patch ==> if found bug fixing small changes
+	- minor ==> addind small features sometimes but without breaking change [ Recommanded ]
+	- mayor ==> addind small features sometimes but with breaking change 
+6- npm version minor or npm version patch ==>>> to move to new update for the package
+7-  ^ ==> means adding from first version for package to last with patch
+	~ ==> means adding from first version for package to last with minor
+8- npm config set save-prefix="~" or npm config set save-prefix="^" ==> this will change to => [ ~ or ^ ]
+	in new install package but not old
+9- npm config set save-exact true ==> will remove all prefixes for new install package
+10- npm outdated ==> to show all of packages that has update
+11- npm update ==> to update to last update
+12- sudo npm link ==> to make all f package that you use link with global scope
+13- sudo npm -g list ==> will make list for all packages that in global
+14- npm completion >> ~/.bashrc
+	source ~/.bashrc ==> to make auto complet for command
